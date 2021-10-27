@@ -8,9 +8,10 @@ actions:
 
   - action: recipe
     description: Generate api28gsi phone rootfs
-    recipe: rootfs-templates/api28gsi_full_phone.yaml
+    recipe: rootfs-templates/gsi_full_phone.yaml
     variables:
       architecture: {{ $architecture }}
+      apilevel: 28
 
   - action: recipe
     description: Get devtools sideload's zip
