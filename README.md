@@ -1,5 +1,7 @@
 # Installation instructions
 
+[![droidian rootfs-builder](https://github.com/droidian-images/rootfs-api28gsi-all/actions/workflows/release.yml/badge.svg?branch=bookworm)](https://github.com/droidian-images/rootfs-api28gsi-all/actions/workflows/release.yml)
+
 ## Preparations
 
 Ensure your device has a vendor partition from Android 9 (newer versions will not work and Android 8 might work but any other older versions will not). If your device is A/B device (sargo and pro1 are A/B devices), it is necessary to have both slots on same Android version. So, if you upgraded Android to newer version than Android 9 (Pie), you have to downgrade Android first (flash Android 9 separately on both slots).
